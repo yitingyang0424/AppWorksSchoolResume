@@ -1,0 +1,64 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat:repeat;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*垂直對齊*/
+    background-color: #FF8C00;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+    font-family:微軟正黑體;
+    font-weight: bold;
+}
+
+.container{
+    width:700px;
+    border:1px solid #999;
+    margin:20px auto;
+    padding:20px;
+    background: rgba(255,255,255,0.5);
+    font-family:微軟正黑體;
+}
+
+.banner{
+    border:1px solid #999;
+    padding:20px;
+    background-color:#cceeff;
+    margin:20PX ;
+}
+
+.content{
+    border:1px solid #999;
+    padding:20px;
+    background: rgba(255,255,255,0.5);
+    margin:20PX ;
+}
+
+
+.text{
+    color:#003377;
+}
+
+
+.photo{
+    display: flex;/*讓下一層次的項目水平排列*/
+    justify-content: flex-end;/*水平對齊*/
+    flex:auto; /*自動把剩下空間填滿*/
+}
+
+.frame{
+    display: flex;/*讓下一層次的項目水平排列*/
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    font-size: 18px;
+    font-weight: bold;
+}
+a{
+    font-weight: bold;
+}
